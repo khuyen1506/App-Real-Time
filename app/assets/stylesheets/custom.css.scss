@@ -1,0 +1,13 @@
+$font-name: 'Lato' !default;
+$font-family: $font-name, 'Helvetica Neue', Arial, Helvetica, sans-serif !default;
+$font-url: 'https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin,latin-ext' !default;
+$import-google-fonts: true !default;
+@import '@doabit/semantic-ui-sass/src/scss/semantic-ui.scss';
+
+.chatbox {
+  height: 450px;
+}
+#messages {
+  height: 15em;
+  overflow: auto;
+}
